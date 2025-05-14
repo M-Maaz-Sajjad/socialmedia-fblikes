@@ -25,7 +25,7 @@ function changeLang(newLang) {
         success: function () {
             location.href = "";
         }
-    }).
+    });
 }
 
 var wavesurfer = WaveSurfer.create({
@@ -35,4 +35,4 @@ var wavesurfer = WaveSurfer.create({
     mediaControls: true
 });
 wavesurfer.load('');
-wavesurfer.on('ready', wavesurfer.play.bind(wavesurfer).
+wavesurfer.on('ready', wavesurfer.play.bind(wavesurfer):
