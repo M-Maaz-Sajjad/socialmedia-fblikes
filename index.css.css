@@ -1,0 +1,35 @@
+<link rel="shortcut icon" href="images/97b31c942deab39118e64423efe46b9c31e669f7.png">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="/css/panel/smmfollows/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="/css/custom.css">
+.cookie-overlay {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    background: #fff;
+    z-index: 2051;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.cookie-overlay a {
+    text-decoration: underline;
+}
+
+.cookie-overlay .close-cookies {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .cookie-overlay {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+    }
+}
